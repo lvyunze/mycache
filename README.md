@@ -85,7 +85,7 @@ cache.has("c")  # False
 cache.get("c")  # raises KeyError
 ```
 
-### Different cache replacement policies
+### 设置缓存类型
 
 ```python
 from mycache import Cache
